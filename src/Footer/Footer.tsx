@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => (
     <div>
         <hr />
-        <em>If you don't like it, that's okay, 'cause we will sing it anyway.</em> -- The Muppets
+        See also: <Link to="https://www.developerleaf.com">my tech site</Link>
     </div>
 );
 

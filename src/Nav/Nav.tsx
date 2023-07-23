@@ -6,9 +6,9 @@ const Nav = () => (
   <div>
     <nav className='navbar'>
       <NavLink to="/"><img src={leaf} width="20" alt="leaf" /></NavLink>
-      <NavLink to="/blog">Blog</NavLink>
-      <NavLink to="/about">About Leaf</NavLink>
-      <NavLink to="/tech">About this site</NavLink>
+      {/* <NavLink to="/blog">Blog</NavLink> */}
+      <NavLink to="/about">Leaf</NavLink>
+      <NavLink to="/art">Art</NavLink>
     </nav>
   </div>
 );

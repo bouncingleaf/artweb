@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Root from './Root.tsx'
 import About from './About/About.tsx'
-import Blog from './Blog/Blog.tsx'
+// import Blog from './Blog/Blog.tsx'
 import Home from './Home/Home.tsx'
-import Tech from './Tech/Tech.tsx'
+import Art from './Art/Art.tsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -27,14 +27,14 @@ const router = createBrowserRouter([
         element: <About />,
         // loader: teamLoader,
       },
+      // {
+      //   path: "blog",
+      //   element: <Blog />,
+      //   // loader: teamLoader,
+      // },
       {
-        path: "blog",
-        element: <Blog />,
-        // loader: teamLoader,
-      },
-      {
-        path: "tech",
-        element: <Tech />,
+        path: "art",
+        element: <Art />,
         // loader: teamLoader,
       },
     ]
