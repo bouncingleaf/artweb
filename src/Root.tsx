@@ -1,4 +1,3 @@
-import Nav from './Nav/Nav'
 import Footer from './Footer/Footer';
 import {
   Outlet,
@@ -10,7 +9,6 @@ function Root() {
 
   return (
     <>
-      <Nav />
       <Outlet />
       <Footer />
     </>
