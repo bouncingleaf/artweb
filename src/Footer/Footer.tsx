@@ -3,8 +3,12 @@ import { Link } from "react-router-dom";
 const Footer = () => (
     <div>
         <hr />
-        See also: <Link to="https://www.developerleaf.com">my developer site</Link>
+        Other places to find me: <DeveloperLeaf /> - <Insta />
     </div>
 );
+
+const DeveloperLeaf = () => <Link to="https://www.developerleaf.com">DeveloperLeaf.com</Link>
+
+const Insta = () => <Link to="https://www.instagram.com/bouncingleaf/">Instagram</Link>
 
 export default Footer
