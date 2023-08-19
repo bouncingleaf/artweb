@@ -958,6 +958,7 @@ __metadata:
     prettier: 3.0.0
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-photo-album: ^2.3.0
     react-router-dom: ^6.14.1
     typescript: ^5.0.2
     vite: ^4.4.0
@@ -2507,6 +2508,15 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 7d323310bea3a91be2965f9468d552f201b1c27891e45ddc2d6b8f717680c95a75ae0bc1e3f5cf41472446a2589a75aed4483aee8169287909fcd59ad149e8cc
+  languageName: node
+  linkType: hard
+
+"react-photo-album@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "react-photo-album@npm:2.3.0"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 0a9044f5051d66516ffc606a1f95c3f6e07ceff97c778d3f2aaff86591ceba01b3cd3623a6734b2a9dea4e861c6ab6ab3125029cca7c2d759b3ffe0b94bda9c1
   languageName: node
   linkType: hard
 
