@@ -22,12 +22,12 @@ function Home() {
 
         <h2 id="artomat">Artomat</h2>
         <p>
-          I just submitted art to <Link to="https://www.artomat.org/">Artomat</Link>, which sells art from former cigarette vending machines that have been converted into art vending machines. How cool is that?!
+          I just got approved to make art for <Link to="https://www.artomat.org/">Artomat</Link>, which sells art from former cigarette vending machines that have been converted into art vending machines. How cool is that?!
         </p>
 
         <h3>Mysterious Creatures series</h3>
 
-        <p>Here's my Artomat submission. These are watercolor and ink on 2"x3" watercolor paper (specifically <Link to="https://www.dickblick.com/products/strathmore-500-series-heavyweight-mixed-media-pads/">Strathmore 500 Heavyweight Mixed Media paper</Link>, which is pretty glorious). I'd like to include three in a box, so that the creatures travel together. The fourth creature is on a 2"x2" card that would be the ID for my slot in the machine.</p>
+        <p>Here's my Artomat prototype. These are watercolor and ink on 2"x3" watercolor paper (specifically <Link to="https://www.dickblick.com/products/strathmore-500-series-heavyweight-mixed-media-pads/">Strathmore 500 Heavyweight Mixed Media paper</Link>, which is pretty glorious). The fourth creature is on a 2"x2" card that would be the ID for my slot in the machine. The final product will have the cards mounted on a block to make them the appropriate size for the vending machine.</p>
         <Gallery.Artomat />
 
         <p>Here are some other creatures. These aren't on as thick a paper, so they probably won't become part of the Artomat boxes, but they're friendly just the same.</p>
