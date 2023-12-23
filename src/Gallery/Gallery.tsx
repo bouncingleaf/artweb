@@ -44,6 +44,27 @@ import img6176 from "../assets/artomat/creatures/IMG_6176.jpeg";
 import img6178 from "../assets/artomat/creatures/IMG_6178.jpeg";
 import img6179 from "../assets/artomat/creatures/IMG_6179.jpeg";
 import img6180 from "../assets/artomat/creatures/IMG_6180.jpeg";
+import cr0105 from "../assets/creatures/creatures01-05.jpeg";
+import cr0105n from "../assets/creatures/creatures01-05names.jpeg";
+import cr0610 from "../assets/creatures/creatures06-10.jpeg";
+import cr0610n from "../assets/creatures/creatures06-10names.jpeg";
+import cr1115 from "../assets/creatures/creatures11-15.jpeg";
+import cr1115n from "../assets/creatures/creatures11-15names.jpeg";
+import cr1620 from "../assets/creatures/creatures16-20.jpeg";
+import cr1620n from "../assets/creatures/creatures16-20names.jpeg";
+import cr2125 from "../assets/creatures/creatures21-25.jpeg";
+import cr2125n from "../assets/creatures/creatures21-25names.jpeg";
+import cr2630 from "../assets/creatures/creatures26-30.jpeg";
+import cr2630n from "../assets/creatures/creatures26-30names.jpeg";
+import cr3135 from "../assets/creatures/creatures31-35.jpeg";
+import cr3135n from "../assets/creatures/creatures31-35names.jpeg";
+import cr3640 from "../assets/creatures/creatures36-40.jpeg";
+import cr3640n from "../assets/creatures/creatures36-40names.jpeg";
+import cr4145 from "../assets/creatures/creatures41-45.jpeg";
+import cr4145n from "../assets/creatures/creatures41-45names.jpeg";
+import cr4650 from "../assets/creatures/creatures46-50.jpeg";
+import cr4650n from "../assets/creatures/creatures46-50names.jpeg";
+
 
 
 const sketch1 = [
@@ -96,13 +117,35 @@ const artomat = [
     { src: img6235, width: 3600, height: 3600 },
 ];
 
-const creatures = [
+const creaturesDemo = [
     { src: img6176, width: 4800, height: 3600 },
     { src: img6178, width: 4800, height: 3600 },
     { src: img6179, width: 4800, height: 3600 },
     { src: img6180, width: 4800, height: 3600 },
 ];
 
+const creatures = [
+    { src: cr0105, width: 3321, height: 2978 },
+    { src: cr0105n, width: 3321, height: 2978 },
+    { src: cr0610, width: 3321, height: 2978 },
+    { src: cr0610n, width: 3321, height: 2978 },
+    { src: cr1115, width: 3321, height: 2978 },
+    { src: cr1115n, width: 3321, height: 2978 },
+    { src: cr1620, width: 3321, height: 2978 },
+    { src: cr1620n, width: 3321, height: 2978 },
+    { src: cr2125, width: 3321, height: 2978 },
+    { src: cr2125n, width: 3321, height: 2978 },
+    { src: cr2630, width: 3321, height: 2978 },
+    { src: cr2630n, width: 3321, height: 2978 },
+    { src: cr3135, width: 3321, height: 2978 },
+    { src: cr3135n, width: 3321, height: 2978 },
+    { src: cr3640, width: 3321, height: 2978 },
+    { src: cr3640n, width: 3321, height: 2978 },
+    { src: cr4145, width: 3321, height: 2978 },
+    { src: cr4145n, width: 3321, height: 2978 },
+    { src: cr4650, width: 3321, height: 2978 },
+    { src: cr4650n, width: 3321, height: 2978 },
+];
 
 const Artomat = () => {
     return <PhotoAlbum
@@ -111,11 +154,11 @@ const Artomat = () => {
         photos={artomat} />;
 }
 
-const Creatures = () => {
+const CreaturesDemo = () => {
     return <PhotoAlbum
         layout="rows"
         targetRowHeight={500}
-        photos={creatures} />;
+        photos={creaturesDemo} />;
 }
 
 const Sketch1 = () => {
@@ -133,6 +176,13 @@ const Sketch2 = () => {
         photos={sketch2} />;
 }
 
-const Gallery = { Artomat, Creatures, Sketch1, Sketch2 }
+const Creatures = () => {
+    return <PhotoAlbum
+        layout="rows"
+        targetRowHeight={500}
+        photos={creatures} />;
+}
+
+const Gallery = { Creatures, Artomat, CreaturesDemo, Sketch1, Sketch2 }
 
 export default Gallery

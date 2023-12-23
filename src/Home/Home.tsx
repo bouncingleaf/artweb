@@ -27,11 +27,14 @@ function Home() {
 
         <h3>Mysterious Creatures series</h3>
 
+        <p>Round one of Mysterious Creatures is now done! They are making their way into the world.</p>
+        <Gallery.Creatures />
+
         <p>Here are my Artomat prototypes. These are watercolor and ink on 2"x3" watercolor paper (specifically <Link to="https://www.dickblick.com/products/strathmore-500-series-heavyweight-mixed-media-pads/">Strathmore 500 Heavyweight Mixed Media paper</Link>, which is pretty glorious). The final product will have the art mounted on a block to make it the appropriate size for the vending machine. The fourth creature is on a 2"x2" card that would be the ID for my slot in the machine. </p>
         <Gallery.Artomat />
 
-        <p>Here are some other creatures. These are on thinner paper, so they might not become part of the Artomat project, but they're friendly just the same.</p>
-        <Gallery.Creatures />
+        <p>Here are some other creatures. They might not become part of the Artomat project, but they're friendly just the same.</p>
+        <Gallery.CreaturesDemo />
 
       </div>
 
