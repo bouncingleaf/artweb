@@ -22,7 +22,7 @@ function Home() {
 
         <h2 id="artomat">Artomat</h2>
         <p>
-          I just got approved to make art for <Link to="https://www.artomat.org/">Artomat</Link>, which sells art from former cigarette vending machines that have been converted into art vending machines. How cool is that?! You can find more cool Artomat stuff on <Link to="https://www.instagram.com/artomat/">the Artomat Instagram</Link>.
+          In late 2023, I started making art for <Link to="https://www.artomat.org/">Artomat</Link>, which sells art from former cigarette vending machines that have been converted into art vending machines. How cool is that?! You can find more cool Artomat stuff on <Link to="https://www.instagram.com/artomat/">the Artomat Instagram</Link>.
         </p>
 
         <h3>Mysterious Creatures series</h3>
