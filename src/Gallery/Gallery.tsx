@@ -271,7 +271,7 @@ const Creatures1 = () => {
 const Creatures2 = () => {
     return <PhotoAlbum
         layout="rows"
-        targetRowHeight={600}
+        targetRowHeight={700}
         photos={creatures2} />;
 }
 
