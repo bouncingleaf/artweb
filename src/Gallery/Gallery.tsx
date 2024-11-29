@@ -44,66 +44,127 @@ import img6176 from "../assets/artomat/creatures/IMG_6176.jpeg";
 import img6178 from "../assets/artomat/creatures/IMG_6178.jpeg";
 import img6179 from "../assets/artomat/creatures/IMG_6179.jpeg";
 import img6180 from "../assets/artomat/creatures/IMG_6180.jpeg";
-import cr10105 from "../assets/creatures/creatures1-01-05.jpeg";
-import cr10105n from "../assets/creatures/creatures1-01-05names.jpeg";
-import cr10610 from "../assets/creatures/creatures1-06-10.jpeg";
-import cr10610n from "../assets/creatures/creatures1-06-10names.jpeg";
-import cr11115 from "../assets/creatures/creatures1-11-15.jpeg";
-import cr11115n from "../assets/creatures/creatures1-11-15names.jpeg";
-import cr11620 from "../assets/creatures/creatures1-16-20.jpeg";
-import cr11620n from "../assets/creatures/creatures1-16-20names.jpeg";
-import cr12125 from "../assets/creatures/creatures1-21-25.jpeg";
-import cr12125n from "../assets/creatures/creatures1-21-25names.jpeg";
-import cr12630 from "../assets/creatures/creatures1-26-30.jpeg";
-import cr12630n from "../assets/creatures/creatures1-26-30names.jpeg";
-import cr13135 from "../assets/creatures/creatures1-31-35.jpeg";
-import cr13135n from "../assets/creatures/creatures1-31-35names.jpeg";
-import cr13640 from "../assets/creatures/creatures1-36-40.jpeg";
-import cr13640n from "../assets/creatures/creatures1-36-40names.jpeg";
-import cr14145 from "../assets/creatures/creatures1-41-45.jpeg";
-import cr14145n from "../assets/creatures/creatures1-41-45names.jpeg";
-import cr14650 from "../assets/creatures/creatures1-46-50.jpeg";
-import cr14650n from "../assets/creatures/creatures1-46-50names.jpeg";
-import cr20105 from "../assets/creatures/creatures2-01-05.jpeg";
-import cr20105n from "../assets/creatures/creatures2-01-05names.jpeg";
-import cr20610 from "../assets/creatures/creatures2-06-10.jpeg";
-import cr20610n from "../assets/creatures/creatures2-06-10names.jpeg";
-import cr21115 from "../assets/creatures/creatures2-11-15.jpeg";
-import cr21115n from "../assets/creatures/creatures2-11-15names.jpeg";
-import cr21620 from "../assets/creatures/creatures2-16-20.jpeg";
-import cr21620n from "../assets/creatures/creatures2-16-20names.jpeg";
-import cr22125 from "../assets/creatures/creatures2-21-25.jpeg";
-import cr22125n from "../assets/creatures/creatures2-21-25names.jpeg";
-import cr22630 from "../assets/creatures/creatures2-26-30.jpeg";
-import cr22630n from "../assets/creatures/creatures2-26-30names.jpeg";
-import cr23135 from "../assets/creatures/creatures2-31-35.jpeg";
-import cr23135n from "../assets/creatures/creatures2-31-35names.jpeg";
-import cr23640 from "../assets/creatures/creatures2-36-40.jpeg";
-import cr23640n from "../assets/creatures/creatures2-36-40names.jpeg";
-import cr24145 from "../assets/creatures/creatures2-41-45.jpeg";
-import cr24145n from "../assets/creatures/creatures2-41-45names.jpeg";
-import cr24650 from "../assets/creatures/creatures2-46-50.jpeg";
-import cr24650n from "../assets/creatures/creatures2-46-50names.jpeg";
-import cr30105 from "../assets/creatures/creatures3-01-05.jpeg";
-import cr30105n from "../assets/creatures/creatures3-01-05names.jpeg";
-import cr30610 from "../assets/creatures/creatures3-06-10.jpeg";
-import cr30610n from "../assets/creatures/creatures3-06-10names.jpeg";
-import cr31115 from "../assets/creatures/creatures3-11-15.jpeg";
-import cr31115n from "../assets/creatures/creatures3-11-15names.jpeg";
-import cr31620 from "../assets/creatures/creatures3-16-20.jpeg";
-import cr31620n from "../assets/creatures/creatures3-16-20names.jpeg";
-import cr32125 from "../assets/creatures/creatures3-21-25.jpeg";
-import cr32125n from "../assets/creatures/creatures3-21-25names.jpeg";
-import cr32630 from "../assets/creatures/creatures3-26-30.jpeg";
-import cr32630n from "../assets/creatures/creatures3-26-30names.jpeg";
-import cr33135 from "../assets/creatures/creatures3-31-35.jpeg";
-import cr33135n from "../assets/creatures/creatures3-31-35names.jpeg";
-import cr33640 from "../assets/creatures/creatures3-36-40.jpeg";
-import cr33640n from "../assets/creatures/creatures3-36-40names.jpeg";
-import cr34145 from "../assets/creatures/creatures3-41-45.jpeg";
-import cr34145n from "../assets/creatures/creatures3-41-45names.jpeg";
-import cr34650 from "../assets/creatures/creatures3-46-50.jpeg";
-import cr34650n from "../assets/creatures/creatures3-46-50names.jpeg";
+import cr010105 from "../assets/creatures/creatures01/01-01-05.jpeg";
+import cr010105n from "../assets/creatures/creatures01/01-01-05names.jpeg";
+import cr010610 from "../assets/creatures/creatures01/01-06-10.jpeg";
+import cr010610n from "../assets/creatures/creatures01/01-06-10names.jpeg";
+import cr011115 from "../assets/creatures/creatures01/01-11-15.jpeg";
+import cr011115n from "../assets/creatures/creatures01/01-11-15names.jpeg";
+import cr011620 from "../assets/creatures/creatures01/01-16-20.jpeg";
+import cr011620n from "../assets/creatures/creatures01/01-16-20names.jpeg";
+import cr012125 from "../assets/creatures/creatures01/01-21-25.jpeg";
+import cr012125n from "../assets/creatures/creatures01/01-21-25names.jpeg";
+import cr012630 from "../assets/creatures/creatures01/01-26-30.jpeg";
+import cr012630n from "../assets/creatures/creatures01/01-26-30names.jpeg";
+import cr013135 from "../assets/creatures/creatures01/01-31-35.jpeg";
+import cr013135n from "../assets/creatures/creatures01/01-31-35names.jpeg";
+import cr013640 from "../assets/creatures/creatures01/01-36-40.jpeg";
+import cr013640n from "../assets/creatures/creatures01/01-36-40names.jpeg";
+import cr014145 from "../assets/creatures/creatures01/01-41-45.jpeg";
+import cr014145n from "../assets/creatures/creatures01/01-41-45names.jpeg";
+import cr014650 from "../assets/creatures/creatures01/01-46-50.jpeg";
+import cr014650n from "../assets/creatures/creatures01/01-46-50names.jpeg";
+import cr020105 from "../assets/creatures/creatures02/02-01-05.jpeg";
+import cr020105n from "../assets/creatures/creatures02/02-01-05names.jpeg";
+import cr020610 from "../assets/creatures/creatures02/02-06-10.jpeg";
+import cr020610n from "../assets/creatures/creatures02/02-06-10names.jpeg";
+import cr021115 from "../assets/creatures/creatures02/02-11-15.jpeg";
+import cr021115n from "../assets/creatures/creatures02/02-11-15names.jpeg";
+import cr021620 from "../assets/creatures/creatures02/02-16-20.jpeg";
+import cr021620n from "../assets/creatures/creatures02/02-16-20names.jpeg";
+import cr022125 from "../assets/creatures/creatures02/02-21-25.jpeg";
+import cr022125n from "../assets/creatures/creatures02/02-21-25names.jpeg";
+import cr022630 from "../assets/creatures/creatures02/02-26-30.jpeg";
+import cr022630n from "../assets/creatures/creatures02/02-26-30names.jpeg";
+import cr023135 from "../assets/creatures/creatures02/02-31-35.jpeg";
+import cr023135n from "../assets/creatures/creatures02/02-31-35names.jpeg";
+import cr023640 from "../assets/creatures/creatures02/02-36-40.jpeg";
+import cr023640n from "../assets/creatures/creatures02/02-36-40names.jpeg";
+import cr024145 from "../assets/creatures/creatures02/02-41-45.jpeg";
+import cr024145n from "../assets/creatures/creatures02/02-41-45names.jpeg";
+import cr024650 from "../assets/creatures/creatures02/02-46-50.jpeg";
+import cr024650n from "../assets/creatures/creatures02/02-46-50names.jpeg";
+import cr030105 from "../assets/creatures/creatures03/03-01-05.jpeg";
+import cr030105n from "../assets/creatures/creatures03/03-01-05names.jpeg";
+import cr030610 from "../assets/creatures/creatures03/03-06-10.jpeg";
+import cr030610n from "../assets/creatures/creatures03/03-06-10names.jpeg";
+import cr031115 from "../assets/creatures/creatures03/03-11-15.jpeg";
+import cr031115n from "../assets/creatures/creatures03/03-11-15names.jpeg";
+import cr031620 from "../assets/creatures/creatures03/03-16-20.jpeg";
+import cr031620n from "../assets/creatures/creatures03/03-16-20names.jpeg";
+import cr032125 from "../assets/creatures/creatures03/03-21-25.jpeg";
+import cr032125n from "../assets/creatures/creatures03/03-21-25names.jpeg";
+import cr032630 from "../assets/creatures/creatures03/03-26-30.jpeg";
+import cr032630n from "../assets/creatures/creatures03/03-26-30names.jpeg";
+import cr033135 from "../assets/creatures/creatures03/03-31-35.jpeg";
+import cr033135n from "../assets/creatures/creatures03/03-31-35names.jpeg";
+import cr033640 from "../assets/creatures/creatures03/03-36-40.jpeg";
+import cr033640n from "../assets/creatures/creatures03/03-36-40names.jpeg";
+import cr034145 from "../assets/creatures/creatures03/03-41-45.jpeg";
+import cr034145n from "../assets/creatures/creatures03/03-41-45names.jpeg";
+import cr034650 from "../assets/creatures/creatures03/03-46-50.jpeg";
+import cr034650n from "../assets/creatures/creatures03/03-46-50names.jpeg";
+
+import cr040105 from "../assets/creatures/creatures04/04-01-05.jpeg";
+import cr040105n from "../assets/creatures/creatures04/04-01-05names.jpeg";
+import cr040610 from "../assets/creatures/creatures04/04-06-10.jpeg";
+import cr040610n from "../assets/creatures/creatures04/04-06-10names.jpeg";
+import cr041115 from "../assets/creatures/creatures04/04-11-15.jpeg";
+import cr041115n from "../assets/creatures/creatures04/04-11-15names.jpeg";
+import cr041620 from "../assets/creatures/creatures04/04-16-20.jpeg";
+import cr041620n from "../assets/creatures/creatures04/04-16-20names.jpeg";
+import cr042125 from "../assets/creatures/creatures04/04-21-25.jpeg";
+import cr042125n from "../assets/creatures/creatures04/04-21-25names.jpeg";
+import cr042630 from "../assets/creatures/creatures04/04-26-30.jpeg";
+import cr042630n from "../assets/creatures/creatures04/04-26-30names.jpeg";
+import cr043135 from "../assets/creatures/creatures04/04-31-35.jpeg";
+import cr043135n from "../assets/creatures/creatures04/04-31-35names.jpeg";
+import cr043640 from "../assets/creatures/creatures04/04-36-40.jpeg";
+import cr043640n from "../assets/creatures/creatures04/04-36-40names.jpeg";
+import cr044145 from "../assets/creatures/creatures04/04-41-45.jpeg";
+import cr044145n from "../assets/creatures/creatures04/04-41-45names.jpeg";
+import cr044650 from "../assets/creatures/creatures04/04-46-50.jpeg";
+import cr044650n from "../assets/creatures/creatures04/04-46-50names.jpeg";
+import cr050105 from "../assets/creatures/creatures05/05-01-05.jpeg";
+import cr050105n from "../assets/creatures/creatures05/05-01-05names.jpeg";
+import cr050610 from "../assets/creatures/creatures05/05-06-10.jpeg";
+import cr050610n from "../assets/creatures/creatures05/05-06-10names.jpeg";
+import cr051115 from "../assets/creatures/creatures05/05-11-15.jpeg";
+import cr051115n from "../assets/creatures/creatures05/05-11-15names.jpeg";
+import cr051620 from "../assets/creatures/creatures05/05-16-20.jpeg";
+import cr051620n from "../assets/creatures/creatures05/05-16-20names.jpeg";
+import cr052125 from "../assets/creatures/creatures05/05-21-25.jpeg";
+import cr052125n from "../assets/creatures/creatures05/05-21-25names.jpeg";
+import cr052630 from "../assets/creatures/creatures05/05-26-30.jpeg";
+import cr052630n from "../assets/creatures/creatures05/05-26-30names.jpeg";
+import cr053135 from "../assets/creatures/creatures05/05-31-35.jpeg";
+import cr053135n from "../assets/creatures/creatures05/05-31-35names.jpeg";
+import cr053640 from "../assets/creatures/creatures05/05-36-40.jpeg";
+import cr053640n from "../assets/creatures/creatures05/05-36-40names.jpeg";
+import cr054145 from "../assets/creatures/creatures05/05-41-45.jpeg";
+import cr054145n from "../assets/creatures/creatures05/05-41-45names.jpeg";
+import cr054650 from "../assets/creatures/creatures05/05-46-50.jpeg";
+import cr054650n from "../assets/creatures/creatures05/05-46-50names.jpeg";
+import cr060105 from "../assets/creatures/creatures06/06-01-05.jpeg";
+import cr060105n from "../assets/creatures/creatures06/06-01-05names.jpeg";
+import cr060610 from "../assets/creatures/creatures06/06-06-10.jpeg";
+import cr060610n from "../assets/creatures/creatures06/06-06-10names.jpeg";
+import cr061115 from "../assets/creatures/creatures06/06-11-15.jpeg";
+import cr061115n from "../assets/creatures/creatures06/06-11-15names.jpeg";
+import cr061620 from "../assets/creatures/creatures06/06-16-20.jpeg";
+import cr061620n from "../assets/creatures/creatures06/06-16-20names.jpeg";
+import cr062125 from "../assets/creatures/creatures06/06-21-25.jpeg";
+import cr062125n from "../assets/creatures/creatures06/06-21-25names.jpeg";
+import cr062630 from "../assets/creatures/creatures06/06-26-30.jpeg";
+import cr062630n from "../assets/creatures/creatures06/06-26-30names.jpeg";
+import cr063135 from "../assets/creatures/creatures06/06-31-35.jpeg";
+import cr063135n from "../assets/creatures/creatures06/06-31-35names.jpeg";
+import cr063640 from "../assets/creatures/creatures06/06-36-40.jpeg";
+import cr063640n from "../assets/creatures/creatures06/06-36-40names.jpeg";
+import cr064145 from "../assets/creatures/creatures06/06-41-45.jpeg";
+import cr064145n from "../assets/creatures/creatures06/06-41-45names.jpeg";
+import cr064650 from "../assets/creatures/creatures06/06-46-50.jpeg";
+import cr064650n from "../assets/creatures/creatures06/06-46-50names.jpeg";
 
 
 const sketch1 = [
@@ -163,74 +224,144 @@ const creaturesDemo = [
     { src: img6180, width: 4800, height: 3600 },
 ];
 
-const creatures1 = [
-    { src: cr10105, width: 3321, height: 2978 },
-    { src: cr10105n, width: 3321, height: 2978 },
-    { src: cr10610, width: 3321, height: 2978 },
-    { src: cr10610n, width: 3321, height: 2978 },
-    { src: cr11115, width: 3321, height: 2978 },
-    { src: cr11115n, width: 3321, height: 2978 },
-    { src: cr11620, width: 3321, height: 2978 },
-    { src: cr11620n, width: 3321, height: 2978 },
-    { src: cr12125, width: 3321, height: 2978 },
-    { src: cr12125n, width: 3321, height: 2978 },
-    { src: cr12630, width: 3321, height: 2978 },
-    { src: cr12630n, width: 3321, height: 2978 },
-    { src: cr13135, width: 3321, height: 2978 },
-    { src: cr13135n, width: 3321, height: 2978 },
-    { src: cr13640, width: 3321, height: 2978 },
-    { src: cr13640n, width: 3321, height: 2978 },
-    { src: cr14145, width: 3321, height: 2978 },
-    { src: cr14145n, width: 3321, height: 2978 },
-    { src: cr14650, width: 3321, height: 2978 },
-    { src: cr14650n, width: 3321, height: 2978 },
+const creatures01 = [
+    { src: cr010105, width: 3321, height: 2978 },
+    { src: cr010105n, width: 3321, height: 2978 },
+    { src: cr010610, width: 3321, height: 2978 },
+    { src: cr010610n, width: 3321, height: 2978 },
+    { src: cr011115, width: 3321, height: 2978 },
+    { src: cr011115n, width: 3321, height: 2978 },
+    { src: cr011620, width: 3321, height: 2978 },
+    { src: cr011620n, width: 3321, height: 2978 },
+    { src: cr012125, width: 3321, height: 2978 },
+    { src: cr012125n, width: 3321, height: 2978 },
+    { src: cr012630, width: 3321, height: 2978 },
+    { src: cr012630n, width: 3321, height: 2978 },
+    { src: cr013135, width: 3321, height: 2978 },
+    { src: cr013135n, width: 3321, height: 2978 },
+    { src: cr013640, width: 3321, height: 2978 },
+    { src: cr013640n, width: 3321, height: 2978 },
+    { src: cr014145, width: 3321, height: 2978 },
+    { src: cr014145n, width: 3321, height: 2978 },
+    { src: cr014650, width: 3321, height: 2978 },
+    { src: cr014650n, width: 3321, height: 2978 },
 ];
 
-const creatures2 = [
-    { src: cr20105, width: 3105, height: 4140 },
-    { src: cr20105n, width: 3105, height: 4140 },
-    { src: cr20610, width: 3105, height: 4140 },
-    { src: cr20610n, width: 3105, height: 4140 },
-    { src: cr21115, width: 3105, height: 4140 },
-    { src: cr21115n, width: 3105, height: 4140 },
-    { src: cr21620, width: 3105, height: 4140 },
-    { src: cr21620n, width: 3105, height: 4140 },
-    { src: cr22125, width: 3105, height: 4140 },
-    { src: cr22125n, width: 3105, height: 4140 },
-    { src: cr22630, width: 3105, height: 4140 },
-    { src: cr22630n, width: 3105, height: 4140 },
-    { src: cr23135, width: 3105, height: 4140 },
-    { src: cr23135n, width: 3105, height: 4140 },
-    { src: cr23640, width: 3105, height: 4140 },
-    { src: cr23640n, width: 3105, height: 4140 },
-    { src: cr24145, width: 3105, height: 4140 },
-    { src: cr24145n, width: 3105, height: 4140 },
-    { src: cr24650, width: 3105, height: 4140 },
-    { src: cr24650n, width: 3105, height: 4140 },
+const creatures02 = [
+    { src: cr020105, width: 3105, height: 4140 },
+    { src: cr020105n, width: 3105, height: 4140 },
+    { src: cr020610, width: 3105, height: 4140 },
+    { src: cr020610n, width: 3105, height: 4140 },
+    { src: cr021115, width: 3105, height: 4140 },
+    { src: cr021115n, width: 3105, height: 4140 },
+    { src: cr021620, width: 3105, height: 4140 },
+    { src: cr021620n, width: 3105, height: 4140 },
+    { src: cr022125, width: 3105, height: 4140 },
+    { src: cr022125n, width: 3105, height: 4140 },
+    { src: cr022630, width: 3105, height: 4140 },
+    { src: cr022630n, width: 3105, height: 4140 },
+    { src: cr023135, width: 3105, height: 4140 },
+    { src: cr023135n, width: 3105, height: 4140 },
+    { src: cr023640, width: 3105, height: 4140 },
+    { src: cr023640n, width: 3105, height: 4140 },
+    { src: cr024145, width: 3105, height: 4140 },
+    { src: cr024145n, width: 3105, height: 4140 },
+    { src: cr024650, width: 3105, height: 4140 },
+    { src: cr024650n, width: 3105, height: 4140 },
 ];
 
-const creatures3 = [
-    { src: cr30105, width: 4469, height: 3352 },
-    { src: cr30105n, width: 4469, height: 3352 },
-    { src: cr30610, width: 4469, height: 3352 },
-    { src: cr30610n, width: 4469, height: 3352 },
-    { src: cr31115, width: 4469, height: 3352 },
-    { src: cr31115n, width: 4469, height: 3352 },
-    { src: cr31620, width: 4469, height: 3352 },
-    { src: cr31620n, width: 4469, height: 3352 },
-    { src: cr32125, width: 4469, height: 3352 },
-    { src: cr32125n, width: 4469, height: 3352 },
-    { src: cr32630, width: 4469, height: 3352 },
-    { src: cr32630n, width: 4469, height: 3352 },
-    { src: cr33135, width: 4469, height: 3352 },
-    { src: cr33135n, width: 4469, height: 3352 },
-    { src: cr33640, width: 4469, height: 3352 },
-    { src: cr33640n, width: 4469, height: 3352 },
-    { src: cr34145, width: 4469, height: 3352 },
-    { src: cr34145n, width: 4469, height: 3352 },
-    { src: cr34650, width: 4469, height: 3352 },
-    { src: cr34650n, width: 4469, height: 3352 },
+const creatures03 = [
+    { src: cr030105, width: 4469, height: 3352 },
+    { src: cr030105n, width: 4469, height: 3352 },
+    { src: cr030610, width: 4469, height: 3352 },
+    { src: cr030610n, width: 4469, height: 3352 },
+    { src: cr031115, width: 4469, height: 3352 },
+    { src: cr031115n, width: 4469, height: 3352 },
+    { src: cr031620, width: 4469, height: 3352 },
+    { src: cr031620n, width: 4469, height: 3352 },
+    { src: cr032125, width: 4469, height: 3352 },
+    { src: cr032125n, width: 4469, height: 3352 },
+    { src: cr032630, width: 4469, height: 3352 },
+    { src: cr032630n, width: 4469, height: 3352 },
+    { src: cr033135, width: 4469, height: 3352 },
+    { src: cr033135n, width: 4469, height: 3352 },
+    { src: cr033640, width: 4469, height: 3352 },
+    { src: cr033640n, width: 4469, height: 3352 },
+    { src: cr034145, width: 4469, height: 3352 },
+    { src: cr034145n, width: 4469, height: 3352 },
+    { src: cr034650, width: 4469, height: 3352 },
+    { src: cr034650n, width: 4469, height: 3352 },
 ];
+
+const creatures04 = [
+    { src: cr040105, width: 4469, height: 3352 },
+    { src: cr040105n, width: 4469, height: 3352 },
+    { src: cr040610, width: 4469, height: 3352 },
+    { src: cr040610n, width: 4469, height: 3352 },
+    { src: cr041115, width: 4469, height: 3352 },
+    { src: cr041115n, width: 4469, height: 3352 },
+    { src: cr041620, width: 4469, height: 3352 },
+    { src: cr041620n, width: 4469, height: 3352 },
+    { src: cr042125, width: 4469, height: 3352 },
+    { src: cr042125n, width: 4469, height: 3352 },
+    { src: cr042630, width: 4469, height: 3352 },
+    { src: cr042630n, width: 4469, height: 3352 },
+    { src: cr043135, width: 4469, height: 3352 },
+    { src: cr043135n, width: 4469, height: 3352 },
+    { src: cr043640, width: 4469, height: 3352 },
+    { src: cr043640n, width: 4469, height: 3352 },
+    { src: cr044145, width: 4469, height: 3352 },
+    { src: cr044145n, width: 4469, height: 3352 },
+    { src: cr044650, width: 4469, height: 3352 },
+    { src: cr044650n, width: 4469, height: 3352 },
+];
+
+const creatures05 = [
+    { src: cr050105, width: 3100, height: 4140 },
+    { src: cr050105n, width: 3100, height: 4140 },
+    { src: cr050610, width: 3100, height: 4140 },
+    { src: cr050610n, width: 3100, height: 4140 },
+    { src: cr051115, width: 3100, height: 4140 },
+    { src: cr051115n, width: 3100, height: 4140 },
+    { src: cr051620, width: 3100, height: 4140 },
+    { src: cr051620n, width: 3100, height: 4140 },
+    { src: cr052125, width: 3100, height: 4140 },
+    { src: cr052125n, width: 3100, height: 4140 },
+    { src: cr052630, width: 3100, height: 4140 },
+    { src: cr052630n, width: 3100, height: 4140 },
+    { src: cr053135, width: 3100, height: 4140 },
+    { src: cr053135n, width: 3100, height: 4140 },
+    { src: cr053640, width: 3100, height: 4140 },
+    { src: cr053640n, width: 3100, height: 4140 },
+    { src: cr054145, width: 3100, height: 4140 },
+    { src: cr054145n, width: 3100, height: 4140 },
+    { src: cr054650, width: 3100, height: 4140 },
+    { src: cr054650n, width: 3100, height: 4140 },
+];
+
+const creatures06 = [
+    { src: cr060105, width: 4469, height: 3352 },
+    { src: cr060105n, width: 4469, height: 3352 },
+    { src: cr060610, width: 4469, height: 3352 },
+    { src: cr060610n, width: 4469, height: 3352 },
+    { src: cr061115, width: 4469, height: 3352 },
+    { src: cr061115n, width: 4469, height: 3352 },
+    { src: cr061620, width: 4469, height: 3352 },
+    { src: cr061620n, width: 4469, height: 3352 },
+    { src: cr062125, width: 4469, height: 3352 },
+    { src: cr062125n, width: 4469, height: 3352 },
+    { src: cr062630, width: 4469, height: 3352 },
+    { src: cr062630n, width: 4469, height: 3352 },
+    { src: cr063135, width: 4469, height: 3352 },
+    { src: cr063135n, width: 4469, height: 3352 },
+    { src: cr063640, width: 4469, height: 3352 },
+    { src: cr063640n, width: 4469, height: 3352 },
+    { src: cr064145, width: 4469, height: 3352 },
+    { src: cr064145n, width: 4469, height: 3352 },
+    { src: cr064650, width: 4469, height: 3352 },
+    { src: cr064650n, width: 4469, height: 3352 },
+];
+
 
 const Artomat = () => {
     return <PhotoAlbum
@@ -261,28 +392,51 @@ const Sketch2 = () => {
         photos={sketch2} />;
 }
 
-const Creatures1 = () => {
+const Creatures01 = () => {
     return <PhotoAlbum
         layout="rows"
         targetRowHeight={500}
-        photos={creatures1} />;
+        photos={creatures01} />;
 }
 
-const Creatures2 = () => {
+const Creatures02 = () => {
     return <PhotoAlbum
         layout="rows"
         targetRowHeight={700}
-        photos={creatures2} />;
+        photos={creatures02} />;
 }
 
-const Creatures3 = () => {
+const Creatures03 = () => {
     return <PhotoAlbum
         layout="rows"
         targetRowHeight={500}
-        photos={creatures3} />;
+        photos={creatures03} />;
 }
 
+const Creatures04 = () => {
+    return <PhotoAlbum
+        layout="rows"
+        targetRowHeight={500}
+        photos={creatures04} />;
+}
 
-const Gallery = { Creatures1, Creatures2, Creatures3, Artomat, CreaturesDemo, Sketch1, Sketch2 }
+const Creatures05 = () => {
+    return <PhotoAlbum
+        layout="rows"
+        targetRowHeight={500}
+        photos={creatures05} />;
+}
+const Creatures06 = () => {
+    return <PhotoAlbum
+        layout="rows"
+        targetRowHeight={500}
+        photos={creatures06} />;
+}
+
+const Gallery = {
+    Creatures01, Creatures02, Creatures03,
+    Creatures04, Creatures05, Creatures06,
+    Artomat, CreaturesDemo, Sketch1, Sketch2
+}
 
 export default Gallery

@@ -25,16 +25,25 @@ function Home() {
           In late 2023, I started making art for <Link to="https://www.artomat.org/">Artomat</Link>, which sells art from former cigarette vending machines that have been converted into art vending machines. How cool is that?! You can find more cool Artomat stuff on <Link to="https://www.instagram.com/artomat/">the Artomat Instagram</Link>.
         </p>
 
-        <h3>Mysterious Creatures series</h3>
+        <h3>Mysterious Creatures</h3>
 
-        <p>Round one of Mysterious Creatures is making their way into the world.</p>
-        <Gallery.Creatures1 />
+        <p>Series six of Mysterious Creatures:</p>
+        <Gallery.Creatures06 />
 
-        <p>Round two of Mysterious Creatures is also out and about.</p>
-        <Gallery.Creatures2 />
+        <p>Series five of Mysterious Creatures:</p>
+        <Gallery.Creatures05 />
 
-        <p>Round three of Mysterious Creatures is now done!</p>
-        <Gallery.Creatures3 />
+        <p>Series four of Mysterious Creatures:</p>
+        <Gallery.Creatures04 />
+
+        <p>Series three of Mysterious Creatures:</p>
+        <Gallery.Creatures03 />
+
+        <p>Series two of Mysterious Creatures:</p>
+        <Gallery.Creatures02 />
+
+        <p>Series one of Mysterious Creatures:</p>
+        <Gallery.Creatures01 />
 
         <p>Here are my Artomat prototypes. These are watercolor and ink on 2"x3" watercolor paper (specifically <Link to="https://www.dickblick.com/products/strathmore-500-series-heavyweight-mixed-media-pads/">Strathmore 500 Heavyweight Mixed Media paper</Link>, which is pretty glorious). The final product has the art mounted on a block to make it the appropriate size for the vending machine. The fourth creature is on a 2"x2" card, it's an example of the ID for my slot in the machine. </p>
         <Gallery.Artomat />
