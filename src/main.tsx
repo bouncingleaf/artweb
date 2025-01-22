@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Root from './Root.tsx'
-// import Blog from './Blog/Blog.tsx'
+import Occupant from './Occupant/Occupant.tsx'
 import Home from './Home/Home.tsx'
 import {
   createBrowserRouter,
@@ -20,11 +20,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />
       },
-      // {
-      //   path: "blog",
-      //   element: <Blog />,
-      //   // loader: teamLoader,
-      // },
+      {
+        path: "occupant",
+        element: <Occupant />,
+        // loader: teamLoader,
+      },
     ]
   },
 ]);
