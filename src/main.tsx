@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "occupant",
+        path: "occupant/",
         element: <Occupant />,
         // loader: teamLoader,
       },
