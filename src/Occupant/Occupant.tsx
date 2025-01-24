@@ -121,6 +121,20 @@ const Occupant = () => (
                 <li>Implement the Department of Government Efficiency, the Elon Musk-led cost-cutting initiative.</li>
                 <li>Revoke security clearances for 51 signers of a letter suggesting that the contents of Hunter Biden’s laptop could be Russian disinformation.</li>
             </ul>
+
+            <h3>Project 2025</h3>
+            In case anyone's not familiar, here's some info about Project 2025, which Trump has distanced himself from but which has a lot of ties to Trump and his buddies.
+            <ul>
+                <li>
+                    <Link to="https://www.bbc.com/news/articles/c977njnvq2do">Project 2025: The right-wing wish list for another Trump presidency</Link> (BBC News)
+                </li>
+                <li>
+                    Or, see for yourself: <Link to="https://www.project2025.org/">Project 2025 site</Link>
+                </li>
+
+            </ul>
+
+
         </div>
     </div>
 );
