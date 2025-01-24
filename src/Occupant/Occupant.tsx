@@ -5,6 +5,21 @@ const Occupant = () => (
         <h1>This happened</h1>
         <div>
             <h2>Term 2</h2>
+            <h3>Wow, I can't keep up</h3>
+            Gotta admit the guy's getting a lot done. Mostly damage.
+
+            Here are some news sources keeping a feed of his damage:
+            <ul>
+                <li>
+                    <Link to="https://abcnews.go.com/Politics/live-updates/trump-2nd-term-live-updates-executive-action-plans/?id=117934786">ABC News Trump 2nd Term Live Updates</Link>
+                </li>
+                <li>
+                    <Link to="https://apnews.com/hub/donald-trump">AP's Donald Trump page</Link>
+                </li>
+                <li>
+                    <Link to="https://www.nytimes.com/section/politics">NY Times Politics section</Link>
+                </li>
+            </ul>
 
             <h3>News from January 23, 2025</h3>
             <ul>
@@ -17,7 +32,15 @@ const Occupant = () => (
                 <li>
                     Enrique Tarrio and Stewart Rhodes, the right-wing militia leaders Trump pardoned, called for retribution against those who investigated the Jan. 6 attacks. <Link to="https://www.nytimes.com/2025/01/22/us/politics/enrique-tarrio-stewart-rhodes.html">Far-Right Leaders Granted Clemency by Trump Express Desire for Retribution</Link> (NY Times)
                 </li>
-
+                <li>
+                    <Link to="https://apnews.com/live/trump-presidency-day-4-updates#00000194-948f-dee5-afff-b4ef38150000">Trump’s freeze on health agency communications has also led to the cancellation of scientific meetings</Link> (AP)
+                </li>
+                <li>
+                    He apparently put on quite a show here: <Link to="https://www.nytimes.com/2025/01/23/us/politics/trump-davos-europe-tariffs.html">Trump Criticizes Europe and Threatens Tariffs in Davos Speech</Link> (NY Times) and <Link to="https://www.reuters.com/world/trump-remotely-address-business-political-leaders-davos-forum-topics-unclear-2025-01-23/">Trump tells Davos he will demand lower interest rates, oil prices</Link> (Reuters)
+                </li>
+                <li>
+                    <Link to="https://abcnews.go.com/Politics/live-updates/trump-2nd-term-live-updates-executive-action-plans/?id=117934786&entryId=118045896">State Department starts suspending passport applications with 'X' gender marker</Link> (ABC News)
+                </li>
             </ul>
 
             <h3>Pardoning January 6 rioters</h3>
