@@ -5,8 +5,25 @@ const Occupant = () => (
         <h1>This happened</h1>
         <div>
             <h2>Term 2</h2>
+
+            <h3>News from January 23, 2025</h3>
+            <ul>
+                <li>
+                    The Trump administration, as part of a purge of diversity programs, asked federal workers to report colleagues who keep such programs alive and threatened those who did not comply. <Link to="https://www.nytimes.com/2025/01/22/us/politics/trump-order-discrimination-federal-hiring.html">Federal Workers Ordered to Report on Colleagues Over D.E.I. Crackdown</Link> (NY Times)
+                </li>
+                <li>
+                    The Trump administration told federal health officials to pause public communications, including bird flu updates. <Link to="https://www.nytimes.com/2025/01/22/health/trump-health-communications.html">Trump Administration Temporarily Mutes Federal Health Officials</Link> (NY Times)
+                </li>
+                <li>
+                    Enrique Tarrio and Stewart Rhodes, the right-wing militia leaders Trump pardoned, called for retribution against those who investigated the Jan. 6 attacks. <Link to="https://www.nytimes.com/2025/01/22/us/politics/enrique-tarrio-stewart-rhodes.html">Far-Right Leaders Granted Clemency by Trump Express Desire for Retribution</Link> (NY Times)
+                </li>
+
+            </ul>
+
             <h3>Pardoning January 6 rioters</h3>
-            <li><Link to="https://www.nytimes.com/2025/01/20/us/politics/trump-pardons-jan-6.html">Trump Grants Sweeping Clemency to All Jan. 6 Rioters</Link> (NY Times) "The extraordinary pardons and commutations extended to those who committed both violent and nonviolent crimes on Jan. 6, including assaulting police officers and seditious conspiracy."</li>
+            <ul>
+                <li><Link to="https://www.nytimes.com/2025/01/20/us/politics/trump-pardons-jan-6.html">Trump Grants Sweeping Clemency to All Jan. 6 Rioters</Link> (NY Times) "The extraordinary pardons and commutations extended to those who committed both violent and nonviolent crimes on Jan. 6, including assaulting police officers and seditious conspiracy."</li>
+            </ul>
             <h3>Executive Orders from first days</h3>
             Welcome to term 2. You Know Who issued a bunch of executive orders - <Link to="https://www.nytimes.com/2025/01/20/us/politics/trump-executive-orders-list.html">Trump’s Executive Orders: Reversing Biden’s Policies and Attacking the ‘Deep State’</Link> (NY Times). Here are some of the orders he signed on his first day in office:
 
