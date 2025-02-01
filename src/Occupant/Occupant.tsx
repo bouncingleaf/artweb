@@ -5,8 +5,48 @@ const Occupant = () => (
         <h1>This happened</h1>
         <div>
             <h2>Term 2</h2>
+
+            <h3>
+                Some of the more scary stuff from OMG IT HASN'T EVEN BEEN TWO WEEKS
+            </h3>
+            <ul>
+                <li>
+                    The Justice Department fired more than a dozen prosecutors at the U.S. attorney’s office in Washington who had been hired to investigate the Jan. 6 riot.
+                </li>
+                <li>
+                    There's an anti-vaxxer as the nominee to lead Health and Human Services. Sounds like a recipe for countless people not surviving the next pandemic. Here's hoping he doesn't get confirmed.
+                </li>
+                <li>
+                    <b>He's removing security details from former government officials.</b> - It's chilling not just for the people affected, but also for people who are in comparable positions now. If doing your job gets you death threats, the protection of the government may run out for you if the guy in charge decides you aren't cool anymore.
+                </li>
+                <li>
+                    <Link to="https://en.wikipedia.org/wiki/2025_dismissals_of_inspectors_general">2025 dismissals of inspectors general</Link> (Wikipedia) -
+                    "Inspectors general (IGs) serve as independent watchdogs within federal agencies, tasked with investigating allegations of fraud, waste, and abuse. Their roles are to maintain transparency and accountability within government operations. These officials are appointed to serve across different administrations and are protected under federal law, which requires the president to provide a 30-day notice to Congress before any dismissal."
+                    Any notice provided? Of course not. Republican Senator Susan Collins stated, "I don't understand why one would fire individuals whose mission it is to root out waste, fraud and abuse." Nah, we all understand why someone would do that.
+                </li>
+                <li>
+                    <b>That Nazi salute at the inauguration? Not an accident.</b>
+                    Musk (and Trump) may or may not <Link to="https://www.aljazeera.com/news/2025/1/31/is-elon-musk-a-nazi-and-can-he-get-european-far-right-hardliners-elected">BE a Nazi,</Link> per se. From this article:
+                    "Is Elon Musk a Nazi? Nazis seem to think so. Christian nationalists, white supremacists and avowed neo-Nazis in the US all hailed Musk’s salute as a historic comeback for their cause." and "'No, he is not [a Nazi],' said Jean-Yves Camus, co-director of the Observatory of Political Radicalism at the Jean Jaures Foundation in Paris. He believes Musk and Trump are self-serving rather than ideological."
+                    and "'I believe he is ideologically unmoored,' agreed Constantinos Filis, who directs the Institute of Global Affairs at the American College of Greece."
+                    <ul>
+                        <li>
+                            <Link to="https://washingtonmonthly.com/2024/11/01/with-trump-theres-a-hitler-analogy-thats-not-overwrought/">With Trump, There’s a Hitler Analogy That’s Not Overwrought</Link>
+                        </li>
+                        <li>
+                            <Link to="https://www.theatlantic.com/politics/archive/2024/10/trump-authoritarian-rhetoric-hitler-mussolini/680296/">Trump Is Speaking Like Hitler, Stalin, and Mussolini</Link>
+
+                        </li>
+                        <li>
+                            <Link to="https://lareviewofbooks.org/article/normalization-lesson-munich-post/">Against Normalization: The Lesson of the “Munich Post”</Link> says "The playbook is Mein Kampf."
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+
             <h3>Wow, I can't keep up</h3>
-            Gotta admit the guy's getting a lot done. Mostly damage.
+            Day four or so and I just gave up trying to stay on top of this list. Gotta admit the guy's getting a lot done. Mostly damage.
 
             Here are some news sources keeping a feed of his damage:
             <ul>
@@ -14,10 +54,16 @@ const Occupant = () => (
                     <Link to="https://abcnews.go.com/Politics/live-updates/trump-2nd-term-live-updates-executive-action-plans/?id=117934786">ABC News Trump 2nd Term Live Updates</Link>
                 </li>
                 <li>
-                    <Link to="https://apnews.com/hub/donald-trump">AP's Donald Trump page</Link>
+                    <Link to="https://apnews.com/hub/donald-trump">AP's Trump page</Link>
                 </li>
                 <li>
                     <Link to="https://www.nytimes.com/section/politics">NY Times Politics section</Link>
+                </li>
+                <li>
+                    <Link to="https://www.aljazeera.com/tag/donald-trump/">Al Jazeera's Trump page</Link>
+                </li>
+                <li>
+                    <Link to="https://www.nbcnews.com/politics/donald-trump">NBC News's Trump page</Link>
                 </li>
             </ul>
 
