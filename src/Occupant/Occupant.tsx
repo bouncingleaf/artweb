@@ -7,6 +7,41 @@ const Occupant = () => (
             <h2>Term 2</h2>
 
             <h3>
+                February 4 update
+            </h3>
+            USAID and more
+            <ul>
+                <li>Secretary of State Marco Rubio said he had taken over as acting head of USAID, the government’s international aid agency, hours after Elon Musk said the White House was closing it.
+                </li>
+                <li>
+                    Musk railed against the agency on social media, calling it a “criminal organization” without offering evidence. “Time for it to die,” he wrote.
+                </li>
+                <li>
+                    Rubio said many of the agency’s programs — which include health services and disaster relief — were worthwhile. But he said its work needed to align more closely with U.S. foreign policy goals.
+                </li>
+                <li>
+                    Trump froze billions in international aid. The decision is already <Link to="https://www.nytimes.com/2025/01/31/world/asia/trump-usaid-freeze.html">worsening humanitarian crises</Link>, including one in Sudan, where soup kitchens that serve nearly a million people have shut down.
+                </li>
+                <li>
+                    The Pentagon is <Link to="https://www.nytimes.com/2025/02/01/business/media/pentagon-press-corps.html">removing dedicated office space</Link> from four major news organizations, including The New York Times and NPR, to make room for right-wing outlets like Breitbart News and One America News.
+                </li>
+                <li>
+                    The C.D.C. ordered its <Link to="https://www.huffpost.com/entry/cdc-orders-papers-withdrawn-forbidden-words_n_67a02486e4b0521901454fe9">scientists to withdraw any pending publications</Link> that mention terms such as “transgender,” “immigrant” or “L.G.B.T.”
+                </li>
+                <li>
+                    The Trump administration <Link to="https://www.nytimes.com/2025/02/02/us/politics/trump-venezuela-temporary-protected-status.html">revoked Temporary Protected Status for more than 300,000 Venezuelans</Link> in the U.S. The move puts them at risk of deportation in coming months.
+                </li>
+                <li>The ability of a spoiled rich boy to destroy our country is truly reaching unparalleled heights in 2025:
+                    <blockquote>
+                        The Department of Government Efficiency, run by President Donald Trump’s billionaire adviser and Tesla CEO Elon Musk, has gained access to sensitive Treasury data including Social Security and Medicare customer payment systems, according to two people familiar with the situation.
+
+                        The move by DOGE, a Trump administration task force assigned to find ways to fire federal workers, cut programs and slash federal regulations, means it could have wide leeway to access important taxpayer data, among other things.
+                    </blockquote>
+                    -- from <Link to="https://www.pbs.org/newshour/politics/elon-musks-task-force-has-gained-access-to-sensitive-treasury-payment-systems-sources-say">PBS</Link>, see also <Link to="https://www.cbsnews.com/news/musk-treasury-social-security-access-federal-payment-system-trump/">CBS News</Link>
+                </li>
+            </ul>
+
+            <h3>
                 Some of the more scary stuff from OMG IT HASN'T EVEN BEEN TWO WEEKS
             </h3>
             <ul>
