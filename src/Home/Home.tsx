@@ -5,7 +5,13 @@ import { Gallery, Emblems } from '../Gallery/Gallery';
 import { useState } from 'react';
 
 function Home() {
-  const [showGallery, setShowGallery] = useState(0)
+  const [showGallery, setShowGallery] = useState(0);
+  const thumbWidth = 50;
+  const click = (series: number) => setShowGallery(showGallery == series ? 0 : series);
+  const artomat = 1001;
+  const demo = 1002;
+  const sketch1 = 1003;
+  const sketch2 = 1004;
 
   return (
     <>
@@ -31,53 +37,53 @@ function Home() {
 
         <h3>Mysterious Creatures</h3>
 
-        <p>Series six of Mysterious Creatures:</p>
+        <p onClick={() => click(6)}>Series six of Mysterious Creatures:</p>
         <img src={Emblems.emblem6}
-          width={100}
-          onClick={() => setShowGallery(showGallery == 6 ? 0 : 6)} />
+          width={thumbWidth}
+          onClick={() => click(6)} />
         {showGallery == 6 ? <Gallery.Creatures06 /> : null}
 
-        <p>Series five of Mysterious Creatures:</p>
+        <p onClick={() => click(5)}>Series five of Mysterious Creatures:</p>
         <img src={Emblems.emblem5}
-          width={100}
-          onClick={() => setShowGallery(showGallery == 5 ? 0 : 5)} />
+          width={thumbWidth}
+          onClick={() => click(5)} />
         {showGallery == 5 ? <Gallery.Creatures05 /> : null}
 
-        <p>Series four of Mysterious Creatures:</p>
+        <p onClick={() => click(4)}>Series four of Mysterious Creatures:</p>
         <img src={Emblems.emblem4}
-          width={100}
-          onClick={() => setShowGallery(showGallery == 4 ? 0 : 4)} />
+          width={thumbWidth}
+          onClick={() => click(4)} />
         {showGallery == 4 ? <Gallery.Creatures04 /> : null}
 
-        <p>Series three of Mysterious Creatures:</p>
+        <p onClick={() => click(3)}>Series three of Mysterious Creatures:</p>
         <img src={Emblems.emblem3}
-          width={100}
-          onClick={() => setShowGallery(showGallery == 3 ? 0 : 3)} />
+          width={thumbWidth}
+          onClick={() => click(3)} />
         {showGallery == 3 ? <Gallery.Creatures03 /> : null}
 
-        <p>Series two of Mysterious Creatures:</p>
+        <p onClick={() => click(2)}>Series two of Mysterious Creatures:</p>
         <img src={Emblems.emblem2}
-          width={100}
-          onClick={() => setShowGallery(showGallery == 2 ? 0 : 2)} />
+          width={thumbWidth}
+          onClick={() => click(2)} />
         {showGallery == 2 ? <Gallery.Creatures02 /> : null}
 
-        <p>Series one of Mysterious Creatures:</p>
+        <p onClick={() => click(1)}>Series one of Mysterious Creatures:</p>
         <img src={Emblems.emblem1}
-          width={100}
-          onClick={() => setShowGallery(showGallery == 1 ? 0 : 1)} />
+          width={thumbWidth}
+          onClick={() => click(1)} />
         {showGallery == 1 ? <Gallery.Creatures01 /> : null}
 
-        <p>Here are my Artomat prototypes. These are watercolor and ink on 2"x3" watercolor paper (specifically <Link to="https://www.dickblick.com/products/strathmore-500-series-heavyweight-mixed-media-pads/">Strathmore 500 Heavyweight Mixed Media paper</Link>, which is pretty glorious). The final product has the art mounted on a block to make it the appropriate size for the vending machine. The fourth creature is on a 2"x2" card, it's an example of the ID for my slot in the machine. </p>
+        <p onClick={() => click(artomat)}>Here are my Artomat prototypes. These are watercolor and ink on 2"x3" watercolor paper (specifically <Link to="https://www.dickblick.com/products/strathmore-500-series-heavyweight-mixed-media-pads/">Strathmore 500 Heavyweight Mixed Media paper</Link>, which is pretty glorious). The final product has the art mounted on a block to make it the appropriate size for the vending machine. The fourth creature is on a 2"x2" card, it's an example of the ID for my slot in the machine. </p>
         <img src={Emblems.emblemArtomat}
-          width={100}
-          onClick={() => setShowGallery(showGallery == 1001 ? 0 : 1001)} />
-        {showGallery == 1001 ? <Gallery.Artomat /> : null}
+          width={thumbWidth}
+          onClick={() => click(artomat)} />
+        {showGallery == artomat ? <Gallery.Artomat /> : null}
 
-        <p>Here are some other creatures. They might not become part of the Artomat project, but they're friendly just the same.</p>
+        <p onClick={() => click(demo)}>Here are some other creatures. They might not become part of the Artomat project, but they're friendly just the same.</p>
         <img src={Emblems.emblemDemo}
-          width={100}
-          onClick={() => setShowGallery(showGallery == 1002 ? 0 : 1002)} />
-        {showGallery == 1002 ? <Gallery.CreaturesDemo /> : null}
+          width={thumbWidth}
+          onClick={() => click(demo)} />
+        {showGallery == demo ? <Gallery.CreaturesDemo /> : null}
 
       </div>
 
@@ -86,21 +92,21 @@ function Home() {
         I've published two sketchbooks through the <Link to="https://brooklynartlibrary.org/">Brooklyn Art Library Sketchbook Project,</Link> which is closed, sadly. Fortunately, I grabbed digital copies of my books.
       </p>
 
-      <h3>"Casual References to Other Dimensions" (2020-2021)</h3>
+      <h3 onClick={() => click(sketch1)}>"Casual References to Other Dimensions" (2020-2021)</h3>
       <p>I'm especially proud of "Sing" (the one about the triangles), the empty speech balloon bird comic, the title of the book, the phrases "a little old for owl's sea ellicon" and "too heavy to fly / defiant, flies anyway," and the collage at the back. May you walk free of interference.</p>
       <img src={Emblems.emblemSketch1}
-        width={100}
-        onClick={() => setShowGallery(showGallery == 1003 ? 0 : 1003)} />
-      {showGallery == 1003 ? <Gallery.Sketch1 /> : null}
+        width={thumbWidth}
+        onClick={() => click(sketch1)} />
+      {showGallery == sketch1 ? <Gallery.Sketch1 /> : null}
 
-      <h3>"Your Guide to Drawing the Line" (2021)</h3>
+      <h3 onClick={() => click(sketch2)}>"Your Guide to Drawing the Line" (2021)</h3>
       <p>100% of adults are into lines.</p>
       <p>I think of "banan" often. "Wary, Ready" is like this book's mascot. The notes about NodeJS were really fun (and Stephen Grider's "NodeJS: Advanced Concepts" class on Udemy is great). "Now" was assembled from a surprisingly small amount of source material. I didn't realize "is that so?" (one of my dad's favorite things to say) was upside down until I'd drawn half of it, haha. </p>
 
       <img src={Emblems.emblemSketch2}
-        width={100}
-        onClick={() => setShowGallery(showGallery == 1004 ? 0 : 1004)} />
-      {showGallery == 1004 ? <Gallery.Sketch2 /> : null}
+        width={thumbWidth}
+        onClick={() => click(sketch2)} />
+      {showGallery == sketch2 ? <Gallery.Sketch2 /> : null}
 
 
       <h1 id="leaf">About me</h1>
