@@ -18,7 +18,7 @@ function Home() {
       <h1>Leaf's art</h1>
 
       <div>
-        <ul>
+        <ul className="toolbar">
           <li><a href="#artomat">Artomat</a></li>
           <li><a href="#sketchbook">Brooklyn Art Library Sketchbook Project</a></li>
           <li><a href="#leaf">About me</a></li>
@@ -125,7 +125,7 @@ function Home() {
       <div className='card'>
         <img
           src={picOfLeaf}
-          width="250px"
+          width={thumbWidth}
           alt="Slightly blurry picture of smiling leaf with glasses and a plaid shirt."
         />
         <p>
