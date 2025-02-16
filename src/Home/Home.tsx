@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function Home() {
   const [showGallery, setShowGallery] = useState(0);
-  const thumbWidth = 50;
+  const thumbWidth = 200;
   const click = (series: number) => setShowGallery(showGallery == series ? 0 : series);
   const artomat = 1001;
   const demo = 1002;
@@ -40,76 +40,88 @@ function Home() {
         <p onClick={() => click(6)}>Series six of Mysterious Creatures:</p>
         <img src={Emblems.emblem6}
           width={thumbWidth}
+          alt="Thumbnail for Mysterious Creatures series six"
           onClick={() => click(6)} />
         {showGallery == 6 ? <Gallery.Creatures06 /> : null}
 
         <p onClick={() => click(5)}>Series five of Mysterious Creatures:</p>
         <img src={Emblems.emblem5}
           width={thumbWidth}
+          alt="Thumbnail for Mysterious Creatures series five"
           onClick={() => click(5)} />
         {showGallery == 5 ? <Gallery.Creatures05 /> : null}
 
         <p onClick={() => click(4)}>Series four of Mysterious Creatures:</p>
         <img src={Emblems.emblem4}
           width={thumbWidth}
+          alt="Thumbnail for Mysterious Creatures series four"
           onClick={() => click(4)} />
         {showGallery == 4 ? <Gallery.Creatures04 /> : null}
 
         <p onClick={() => click(3)}>Series three of Mysterious Creatures:</p>
         <img src={Emblems.emblem3}
           width={thumbWidth}
+          alt="Thumbnail for Mysterious Creatures series three"
           onClick={() => click(3)} />
         {showGallery == 3 ? <Gallery.Creatures03 /> : null}
 
         <p onClick={() => click(2)}>Series two of Mysterious Creatures:</p>
         <img src={Emblems.emblem2}
           width={thumbWidth}
+          alt="Thumbnail for Mysterious Creatures series two"
           onClick={() => click(2)} />
         {showGallery == 2 ? <Gallery.Creatures02 /> : null}
 
         <p onClick={() => click(1)}>Series one of Mysterious Creatures:</p>
         <img src={Emblems.emblem1}
           width={thumbWidth}
+          alt="Thumbnail for Mysterious Creatures series one"
           onClick={() => click(1)} />
         {showGallery == 1 ? <Gallery.Creatures01 /> : null}
 
         <p onClick={() => click(artomat)}>Here are my Artomat prototypes. These are watercolor and ink on 2"x3" watercolor paper (specifically <Link to="https://www.dickblick.com/products/strathmore-500-series-heavyweight-mixed-media-pads/">Strathmore 500 Heavyweight Mixed Media paper</Link>, which is pretty glorious). The final product has the art mounted on a block to make it the appropriate size for the vending machine. The fourth creature is on a 2"x2" card, it's an example of the ID for my slot in the machine. </p>
         <img src={Emblems.emblemArtomat}
           width={thumbWidth}
+          alt="Thumbnail for Artomat series"
           onClick={() => click(artomat)} />
         {showGallery == artomat ? <Gallery.Artomat /> : null}
 
         <p onClick={() => click(demo)}>Here are some other creatures. They might not become part of the Artomat project, but they're friendly just the same.</p>
         <img src={Emblems.emblemDemo}
           width={thumbWidth}
+          alt="Thumbnail for demo series"
           onClick={() => click(demo)} />
         {showGallery == demo ? <Gallery.CreaturesDemo /> : null}
 
       </div>
 
       <h2 id="sketchbook">Brooklyn Art Library Sketchbook Project</h2>
-      <p>
-        I've published two sketchbooks through the <Link to="https://brooklynartlibrary.org/">Brooklyn Art Library Sketchbook Project,</Link> which is closed, sadly. Fortunately, I grabbed digital copies of my books.
-      </p>
+      <div className='card'>
+        <p>
+          I've published two sketchbooks through the <Link to="https://brooklynartlibrary.org/">Brooklyn Art Library Sketchbook Project,</Link> which is closed, sadly. Fortunately, I grabbed digital copies of my books.
+        </p>
 
-      <h3 onClick={() => click(sketch1)}>"Casual References to Other Dimensions" (2020-2021)</h3>
-      <p>I'm especially proud of "Sing" (the one about the triangles), the empty speech balloon bird comic, the title of the book, the phrases "a little old for owl's sea ellicon" and "too heavy to fly / defiant, flies anyway," and the collage at the back. May you walk free of interference.</p>
-      <img src={Emblems.emblemSketch1}
-        width={thumbWidth}
-        onClick={() => click(sketch1)} />
-      {showGallery == sketch1 ? <Gallery.Sketch1 /> : null}
+        <h3 onClick={() => click(sketch1)}>"Casual References to Other Dimensions" (2020-2021)</h3>
+        <p>I'm especially proud of "Sing" (the one about the triangles), the empty speech balloon bird comic, the title of the book, the phrases "a little old for owl's sea ellicon" and "too heavy to fly / defiant, flies anyway," and the collage at the back. May you walk free of interference.</p>
+        <img src={Emblems.emblemSketch1}
+          width={thumbWidth}
+          alt="Thumbnail for sketchbook series 1"
+          onClick={() => click(sketch1)} />
+        {showGallery == sketch1 ? <Gallery.Sketch1 /> : null}
 
-      <h3 onClick={() => click(sketch2)}>"Your Guide to Drawing the Line" (2021)</h3>
-      <p>100% of adults are into lines.</p>
-      <p>I think of "banan" often. "Wary, Ready" is like this book's mascot. The notes about NodeJS were really fun (and Stephen Grider's "NodeJS: Advanced Concepts" class on Udemy is great). "Now" was assembled from a surprisingly small amount of source material. I didn't realize "is that so?" (one of my dad's favorite things to say) was upside down until I'd drawn half of it, haha. </p>
+        <h3 onClick={() => click(sketch2)}>"Your Guide to Drawing the Line" (2021)</h3>
+        <p>100% of adults are into lines.</p>
+        <p>I think of "banan" often. "Wary, Ready" is like this book's mascot. The notes about NodeJS were really fun (and Stephen Grider's "NodeJS: Advanced Concepts" class on Udemy is great). "Now" was assembled from a surprisingly small amount of source material. I didn't realize "is that so?" (one of my dad's favorite things to say) was upside down until I'd drawn half of it, haha. </p>
 
-      <img src={Emblems.emblemSketch2}
-        width={thumbWidth}
-        onClick={() => click(sketch2)} />
-      {showGallery == sketch2 ? <Gallery.Sketch2 /> : null}
+        <img src={Emblems.emblemSketch2}
+          width={thumbWidth}
+          alt="Thumbnail for sketchbook series 2"
+          onClick={() => click(sketch2)} />
+        {showGallery == sketch2 ? <Gallery.Sketch2 /> : null}
+      </div>
 
 
-      <h1 id="leaf">About me</h1>
+      <h1 id="leaf">About Leaf</h1>
       <div className='card'>
         <img
           src={picOfLeaf}
@@ -123,12 +135,11 @@ function Home() {
           I also like paper. My go-to is 12x12" 110 lb cardstock that is smooth on one side and linen on the other, but my favorite is a good Bristol smooth. I've tried digital art, but it's just not the same. Something about applying ink to paper is so satisfying.
         </p>
         <p>When I'm not making a mess with the aforementioned, I like to look at birds, walk outside, and listen to audio books or music, sometimes all at once.</p>
-
-
       </div>
 
       <h1 id="other">Other people's art</h1>
       <div className='card'>
+        <p>Here are some artists whose work I enjoy:</p>
         <ul>
           <li><Link to="https://wardfdn.org/artists/larry-barth/">Larry Barth</Link></li>
           <li><Link to="https://rosemarymosco.com/comics/bird-and-moon">Bird and Moon by Rosemary Mosco</Link></li>
