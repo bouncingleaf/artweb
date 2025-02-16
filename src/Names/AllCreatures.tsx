@@ -320,7 +320,101 @@ const series6: string[] = [
 ]
 
 const series7: string[] = [
-    ""
+    "mascot",
+    "what is it?",
+    "happy in movement",
+    "heavy or light",
+    "conjuring the light",
+    "from point a to b",
+    "suspicion",
+    "awaiting the go-ahead",
+    "eyes up",
+    "happy bouncy walk",
+    //
+    "everybody okay up there?",
+    "with dramatic flair",
+    "hey",
+    "and then the dragon walked like-",
+    "I do float",
+    "treasured items, comfort",
+    "that's right, six",
+    "bright sunlight",
+    "bottle",
+    "working out a plan",
+    //
+    "fierce",
+    "ambling",
+    "swimming? walking?",
+    "perched friend",
+    "bumpy",
+    "complicated, perhaps complex",
+    "next wave",
+    "hold star carefully",
+    "good evening",
+    "hello yellow",
+    //
+    "facepalm",
+    "eyebrow raise",
+    "noodle",
+    "arms & FEET",
+    "lurking in the shadows",
+    "spectacular motion",
+    "calm, meditative, toothy",
+    "well armed",
+    "chef's kiss",
+    "preservation of wings",
+    //
+    "witchy",
+    "yoga pose",
+    "musician climbs over",
+    "I've said enough",
+    "toy creature",
+    "ready to go out",
+    "the eye",
+    "concentrating on the message",
+    "in a hurry",
+    "disappearing"
 ]
 
-export default [series1, series2, series3, series4, series5, series6, series7]
+const series8: string[] = [
+    "keynote",
+    "call a spade",
+    "genie",
+    "side eye",
+    "mirror image?",
+    "color in motion",
+    "red & gold",
+    "just playin'",
+    "snack",
+    "goods",
+    //
+    "fountain of green",
+    "sharp-edged and happy",
+    "swim",
+    "morning walk",
+    "hat",
+    "stretch",
+    "mushroom?",
+    "I've got a plan",
+    "magic wand",
+    "I wonder...",
+    //
+    "hairy",
+    "umbrella",
+    "meditation pose",
+    "ruffled",
+    "comfort and peace",
+    "feather",
+    "floating forward",
+    "hi mom",
+    "chin",
+    "oh hi there"
+]
+
+// const series9: string[] = [
+// ]
+
+// const series10: string[] = [
+// ]
+
+export default [series1, series2, series3, series4, series5, series6, series7, series8]

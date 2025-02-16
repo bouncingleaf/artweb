@@ -1,4 +1,5 @@
 import PhotoAlbum from "react-photo-album";
+import emblemSketch1 from "../assets/sketchbook/emblemSketch1.jpeg";
 import img0001 from "../assets/sketchbook/book1-s1134032-0001.jpeg";
 import img0002 from "../assets/sketchbook/book1-s1134032-0002.jpeg";
 import img0003 from "../assets/sketchbook/book1-s1134032-0003.jpeg";
@@ -18,6 +19,7 @@ import img0016 from "../assets/sketchbook/book1-s1134032-0016.jpeg";
 import img0017 from "../assets/sketchbook/book1-s1134032-0017.jpeg";
 import img0018 from "../assets/sketchbook/book1-s1134032-0018.jpeg";
 import img0019 from "../assets/sketchbook/book1-s1134032-0019.jpeg";
+import emblemSketch2 from "../assets/sketchbook/emblemSketch2.png";
 import img2_01 from "../assets/sketchbook/book2-S6664862_01.jpg";
 import img2_02 from "../assets/sketchbook/book2-S6664862_02.jpg";
 import img2_03 from "../assets/sketchbook/book2-S6664862_03.jpg";
@@ -37,13 +39,16 @@ import img2_16 from "../assets/sketchbook/book2-S6664862_16.jpg";
 import img2_17 from "../assets/sketchbook/book2-S6664862_17.jpg";
 import img2_18 from "../assets/sketchbook/book2-S6664862_18.jpg";
 import img2_19 from "../assets/sketchbook/book2-S6664862_19.jpg";
+import emblemArtomat from "../assets/artomat/artomatEmblem.jpeg";
 import img6224 from "../assets/artomat/IMG_6224.jpeg";
 import img6225 from "../assets/artomat/IMG_6225.jpeg";
 import img6235 from "../assets/artomat/IMG_6235.jpeg";
+import emblemDemo from "../assets/artomat/creatures/demoEmblem.jpeg";
 import img6176 from "../assets/artomat/creatures/IMG_6176.jpeg";
 import img6178 from "../assets/artomat/creatures/IMG_6178.jpeg";
 import img6179 from "../assets/artomat/creatures/IMG_6179.jpeg";
 import img6180 from "../assets/artomat/creatures/IMG_6180.jpeg";
+import emblem1 from "../assets/creatures/creatures01/emblem1.jpeg";
 import cr010105 from "../assets/creatures/creatures01/01-01-05.jpeg";
 import cr010105n from "../assets/creatures/creatures01/01-01-05names.jpeg";
 import cr010610 from "../assets/creatures/creatures01/01-06-10.jpeg";
@@ -64,6 +69,7 @@ import cr014145 from "../assets/creatures/creatures01/01-41-45.jpeg";
 import cr014145n from "../assets/creatures/creatures01/01-41-45names.jpeg";
 import cr014650 from "../assets/creatures/creatures01/01-46-50.jpeg";
 import cr014650n from "../assets/creatures/creatures01/01-46-50names.jpeg";
+import emblem2 from "../assets/creatures/creatures02/emblem2.jpeg";
 import cr020105 from "../assets/creatures/creatures02/02-01-05.jpeg";
 import cr020105n from "../assets/creatures/creatures02/02-01-05names.jpeg";
 import cr020610 from "../assets/creatures/creatures02/02-06-10.jpeg";
@@ -84,6 +90,7 @@ import cr024145 from "../assets/creatures/creatures02/02-41-45.jpeg";
 import cr024145n from "../assets/creatures/creatures02/02-41-45names.jpeg";
 import cr024650 from "../assets/creatures/creatures02/02-46-50.jpeg";
 import cr024650n from "../assets/creatures/creatures02/02-46-50names.jpeg";
+import emblem3 from "../assets/creatures/creatures03/emblem3.jpeg";
 import cr030105 from "../assets/creatures/creatures03/03-01-05.jpeg";
 import cr030105n from "../assets/creatures/creatures03/03-01-05names.jpeg";
 import cr030610 from "../assets/creatures/creatures03/03-06-10.jpeg";
@@ -104,7 +111,7 @@ import cr034145 from "../assets/creatures/creatures03/03-41-45.jpeg";
 import cr034145n from "../assets/creatures/creatures03/03-41-45names.jpeg";
 import cr034650 from "../assets/creatures/creatures03/03-46-50.jpeg";
 import cr034650n from "../assets/creatures/creatures03/03-46-50names.jpeg";
-
+import emblem4 from "../assets/creatures/creatures04/emblem4.jpeg";
 import cr040105 from "../assets/creatures/creatures04/04-01-05.jpeg";
 import cr040105n from "../assets/creatures/creatures04/04-01-05names.jpeg";
 import cr040610 from "../assets/creatures/creatures04/04-06-10.jpeg";
@@ -125,6 +132,7 @@ import cr044145 from "../assets/creatures/creatures04/04-41-45.jpeg";
 import cr044145n from "../assets/creatures/creatures04/04-41-45names.jpeg";
 import cr044650 from "../assets/creatures/creatures04/04-46-50.jpeg";
 import cr044650n from "../assets/creatures/creatures04/04-46-50names.jpeg";
+import emblem5 from "../assets/creatures/creatures05/emblem5.jpeg";
 import cr050105 from "../assets/creatures/creatures05/05-01-05.jpeg";
 import cr050105n from "../assets/creatures/creatures05/05-01-05names.jpeg";
 import cr050610 from "../assets/creatures/creatures05/05-06-10.jpeg";
@@ -145,6 +153,7 @@ import cr054145 from "../assets/creatures/creatures05/05-41-45.jpeg";
 import cr054145n from "../assets/creatures/creatures05/05-41-45names.jpeg";
 import cr054650 from "../assets/creatures/creatures05/05-46-50.jpeg";
 import cr054650n from "../assets/creatures/creatures05/05-46-50names.jpeg";
+import emblem6 from "../assets/creatures/creatures06/emblem6.jpeg";
 import cr060105 from "../assets/creatures/creatures06/06-01-05.jpeg";
 import cr060105n from "../assets/creatures/creatures06/06-01-05names.jpeg";
 import cr060610 from "../assets/creatures/creatures06/06-06-10.jpeg";
@@ -165,7 +174,6 @@ import cr064145 from "../assets/creatures/creatures06/06-41-45.jpeg";
 import cr064145n from "../assets/creatures/creatures06/06-41-45names.jpeg";
 import cr064650 from "../assets/creatures/creatures06/06-46-50.jpeg";
 import cr064650n from "../assets/creatures/creatures06/06-46-50names.jpeg";
-
 
 const sketch1 = [
     { src: img0001, width: 4800, height: 3600 },
@@ -362,7 +370,6 @@ const creatures06 = [
     { src: cr064650n, width: 4469, height: 3352 },
 ];
 
-
 const Artomat = () => {
     return <PhotoAlbum
         layout="rows"
@@ -436,7 +443,20 @@ const Creatures06 = () => {
 const Gallery = {
     Creatures01, Creatures02, Creatures03,
     Creatures04, Creatures05, Creatures06,
-    Artomat, CreaturesDemo, Sketch1, Sketch2
+    Artomat, CreaturesDemo, Sketch1, Sketch2,
+};
+
+const Emblems = {
+    emblem1,
+    emblem2,
+    emblem3,
+    emblem4,
+    emblem5,
+    emblem6,
+    emblemArtomat,
+    emblemDemo,
+    emblemSketch1,
+    emblemSketch2
 }
 
-export default Gallery
+export { Gallery, Emblems }
