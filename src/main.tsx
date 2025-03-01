@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Root from './Root.tsx'
-import Occupant from './Occupant/Occupant.tsx'
+import Resist from './Resist/Resist.tsx'
 import Names from './Names/Names.tsx'
 import Home from './Home/Home.tsx'
 import {
@@ -23,8 +23,12 @@ const router = createBrowserRouter([
       },
       {
         path: "occupant/",
-        element: <Occupant />,
+        element: <Resist />,
         // loader: teamLoader,
+      },
+      {
+        path: "resist/",
+        element: <Resist />,
       },
       {
         path: "names/",
