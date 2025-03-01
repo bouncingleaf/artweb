@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 const Resist = () => (
     <div>
-        <h1>What to do</h1>
-        <h2>Don't let the overwhelm and helplessness get you</h2>
+        <h1>Don't let overwhelm and helplessness win</h1>
+        <h2>What to do?</h2>
         <p>
-            People are at a loss about what to do. It seems so bleak as we watch people tearing democracy apart, our health and safety in jeopardy, international relations being trampled, and a bunch of rich bros playing games with people's lives and livelihoods. It's nauseating.
+            People are at a loss about what to do. It seems so bleak as we watch the Trump administration and their friends tearing democracy apart, people's health and safety in jeopardy, international relations being trampled, and a bunch of rich bros playing games with people's lives and livelihoods. It's nauseating.
         </p>
         <p>
             But: overwhelm and hopelessness is part of the plan. It's essential to the plan.
@@ -42,6 +42,9 @@ const Resist = () => (
             <li>
                 <b>Share what's good.</b> We need hope, joy, community, art, rest, nourishment, laughter, support... Let's take care of ourselves and each other.
             </li>
+            <li>
+                <b>Nobody elected Elon.</b> Don't assume that everything he does is legitimate and must be obeyed. Actually that should apply even to the elected ones at this point. Social media posts are not law. Just because Trump said it, or one of his henchmen said it, doesn't make it real, legal, or binding.
+            </li>
         </ul>
         <h2>Resources</h2>
         <p>Sites and other resources that are giving me hope and ideas right now:</p>
@@ -60,6 +63,11 @@ const Resist = () => (
             </li>
             <li>
                 Gene Sharp's book <Link to="https://upload.wikimedia.org/wikipedia/commons/e/e4/From_Dictatorship_to_Democracy_%282003%29.pdf">From Dictatorship To Democracy</Link> is excellent. Paper copies <Link to="https://bookshop.org/p/books/from-dictatorship-to-democracy-a-conceptual-framework-for-liberation-gene-sharp/450332?ean=9781595588500&next=t&next=t">here</Link> and other places.
+            </li>
+            <li>
+                Also fascinating reading: <Link to="https://www.cia.gov/static/5c875f3ec660e092cf893f60b4a288df/SimpleSabotage.pdf">The CIA Simple Sabotage Field Manual</Link> and the <Link to="https://www.cia.gov/stories/story/the-art-of-simple-sabotage/">story</Link> behind it.
+                The CIA's intention was that tactics like these could be used to gum up the works as an act of resistance. But you might recognize some of the practices in this document as commonplace in a typical American work environment.
+                Now imagine if you worked in an organization and you have been asked to do something harmful, unethical, immoral... maybe you're afraid of repercussions if you outright refuse. There might be other ways to resist.
             </li>
             <li>
                 Support organizations like the <Link to="https://www.aclu.org/">ACLU</Link> that are taking legal action.

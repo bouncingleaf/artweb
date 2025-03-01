@@ -21,6 +21,7 @@ function Home() {
       <div>
         <ul className="toolbar">
           <li><a href="#book">Book</a></li>
+          <li><a href="#resist">What Now</a></li>
           <li><a href="#circles">Thousands of Circles</a></li>
           <li><a href="#artomat">Artomat</a></li>
           <li><a href="#sketchbook">Brooklyn Art Library Sketchbook Project</a></li>
@@ -44,6 +45,8 @@ function Home() {
         <p>
           Follow me on <Link to="https://www.instagram.com/leafjessicaroy/">Instagram</Link> to get a peek into the book writing process as it unfolds...
         </p>
+        <h2 id="resist">What Now</h2>
+        <p>The Trump administration is causing a truly historic amount of damage to our country and our world. I wrote a <Link to="resist/">my What Now page</Link> with some thoughts, ideas, and resources about it all.</p>
         <h2 id="circles">Thousands of Circles</h2>
         <p>
           One of the things I like best about drawing is just the act of putting ink on paper. In 2025, I started drawing circles on blank postcards.
