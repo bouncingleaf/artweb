@@ -13,6 +13,7 @@ const Resist = () => (
                 <li><a href="#resources">Resources</a></li>
                 <li><a href="#dei">DEI Scorecard</a></li>
                 <li><a href="#news">First few weeks</a></li>
+                <li><a href="#woke">And if you want to call me woke...</a></li>
             </ul>
         </div>
 
@@ -112,6 +113,19 @@ const Resist = () => (
                 <p>Below, a list of news items just from the first few weeks.</p>
 
                 <News />
+            </div>
+
+            <div id="woke">
+                <hr />
+                <h2>Don't sleep</h2>
+                <p>If you are reading this and calling me woke -- yes please and thank you. I woke up a long time ago. Recommend that you do too.</p>
+                <p>Because while you are sleeping, they're robbing you. Understand that. Trump and his buddies might tell you what you want to hear. But wake up and pay attention to what they DO.</p>
+                <p>Pay attention to what happens to your health care, your salary, how much you pay for food and medicine. Watch how polluted your air and water are, how the next major health crisis is handled, how product safety that is there for your protection gets eroded. Get the facts on how unvaccinated children are actually doing. Consider how close we are getting to World War Three. </p>
+                <p>Pay attention to how things that you know to be true (Russia invaded Ukraine) are suddenly talked about as if they're not. Watch for how many times Trump says something on video and then later denies that he said it. There's a lot of slippery politician talk going on.</p>
+                <p>Remember that folks like Elon Musk and Mark Zuckerberg have one thing the rest of us don't: access to money beyond what we can even imagine. If they make our country unsafe to live in due to pollution, crime, war, or natural disasters brought on by climate change, they and their families and property won't suffer. When your grocery stores are empty, your gas station is too, and the only hospital near you has closed because they got hacked and they can't afford the ransom, Elon Musk won't be concerned about you while he's on his private jet. </p>
+                <p>And consider: Who in the world benefits from the United States being weakened by mass firings across government agencies and chaos and disruption in our society? Who benefits from our withdrawing from our allies in Europe and the world? Who benefits from our being unprepared for a major outbreak of a new virus, a major cyber attack, or a nuclear threat from, say, Russia? I'll give you a hint: it isn't us.</p>
+                <p>Pay attention.</p>
+                <p>WAKE UP.</p>
             </div>
         </div>
     </div>
