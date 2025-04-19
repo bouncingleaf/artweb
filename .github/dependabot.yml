@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "yarn" # Change this to match your package manager (e.g., pip, maven, etc.)
+    directory: "/" # The directory where your package.json or equivalent file is located
+    schedule:
+      interval: "daily" # Options: daily, weekly, monthly
+    open-pull-requests-limit: 5 # Optional: Limit the number of open PRs
+    ignore:
+      - dependency-name: "some-package" # Optional: Ignore specific dependencies
+        versions: ["<2.0.0"] # Optional: Ignore specific versions
