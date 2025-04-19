@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "otherbuild": "vite build",
+    "serve": "vite preview",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "tsc && vite build && vite preview"
   },
@@ -16,17 +18,20 @@
     "react-router-dom": "^6.14.1"
   },
   "devDependencies": {
+    "@types/picomatch": "^4.0.0",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@typescript-eslint/eslint-plugin": "6.0.0",
     "@typescript-eslint/parser": "6.0.0",
-    "@vitejs/plugin-react": "^4.0.1",
+    "@vitejs/plugin-react": "^4.4.0",
+    "depcheck": "^1.4.7",
     "eslint": "^8.44.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
-    "prettier": "3.0.0",
+    "prettier": "^3.5.3",
     "typescript": "^5.0.2",
-    "vite": "^4.4.0"
-  }
+    "vite": "^6.3.2"
+  },
+  "packageManager": "yarn@4.9.1"
 }

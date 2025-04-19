@@ -36,14 +36,12 @@ function Home() {
         <p>
           That's right: a book. Those of you who know me as an artist or a software developer (25+ years in tech) may not know that I was a writer first. Writing feels like coming home.
         </p>
+        <p>I've started a website for more about the book at <Link to="https://www.leafjessicaroy.com/">leafjessicaroy.com</Link>.</p>
         <p>
           I am in Cohort 3 of <Link to="https://thebookacademy.org/">The Book Academy</Link>, run and taught by four-time New York Times bestselling author, speaker, 20-year marketing veteran, and Professional Troublemaker <Link to="https://luvvie.org/">Luvvie Ajayi Jones</Link>.
         </p>
         <p>
-          I don't know about you, but I love getting a peek into the creative process and thought process of other artists. So I'll be posting about my writing journey online as I go.
-        </p>
-        <p>
-          Follow me on <Link to="https://www.instagram.com/leafjessicaroy/">Instagram</Link> to get a peek into the book writing process as it unfolds...
+          I don't know about you, but I love getting a peek into the creative process and thought process of other artists. So I'll be posting about my writing journey online as I go. Check out <Link to="https://www.leafjessicaroy.com/">my new site</Link>, sign up for <Link to="https://www.leafjessicaroy.com/connect/">my mailing list</Link> to get updates on the progress and perhaps some snippets, or follow me on <Link to="https://www.instagram.com/leafjessicaroy/">Instagram</Link> to get a peek into the book writing process as it unfolds...
         </p>
         <h2 id="resist">What Now</h2>
         <p>The Trump administration is causing a truly historic amount of damage to our country and our world. I wrote a <Link to="resist/">my What Now page</Link> with some thoughts, ideas, and resources about it all.</p>
@@ -55,7 +53,7 @@ function Home() {
           Each card has at least 100 circles on it, some of them have 200 or more. Sometimes they overlap, sometimes they have connections, sometimes there are other things going on.
         </p>
         <p>
-          As of this writing (March 2025), I have made more than 40 of these cards, so if you are holding one, you're holding at least 100 of a set of over 4000 circles. Not impressive yet, perhaps, but I'm not done.
+          As of this writing (April 2025), I have made more than 60 of these cards, so if you are holding one, you're holding at least 100 of a set of over 6000 circles. Not impressive yet, perhaps, but I'm not done.
         </p>
         <p>
           What does it all mean? I don't know. Maybe I seek roundness and connection in a sharp-edged and disconnected world. Maybe they will eventually add up to some significant number, representing the number of people who... or the number of times that... I don't know. Maybe I just like circles.
