@@ -36,12 +36,11 @@ function Home() {
         <p>
           That's right: a book. Those of you who know me as an artist or a software developer (25+ years in tech) may not know that I was a writer first. Writing feels like coming home.
         </p>
-        <p>Check out <Link to="https://www.leafjessicaroy.com/">leafjessicaroy.com</Link> for more.</p>
         <p>
           I am in Cohort 3 of <Link to="https://thebookacademy.org/">The Book Academy</Link>, run and taught by four-time New York Times bestselling author, speaker, 20-year marketing veteran, and Professional Troublemaker <Link to="https://luvvie.org/">Luvvie Ajayi Jones</Link>.
         </p>
         <p>
-          I don't know about you, but I love getting a peek into the creative process and thought process of other artists. So I'll be posting about my writing journey online as I go. Check out <Link to="https://www.leafjessicaroy.com/">my new site</Link>, sign up for <Link to="https://www.leafjessicaroy.com/connect/">my mailing list</Link> to get updates on the progress and perhaps some snippets, or follow me on <Link to="https://www.instagram.com/leafjessicaroy/">Instagram</Link> to get a peek into the book writing process as it unfolds...
+          I love getting a peek into the process of other artists. So I'll be posting about my writing journey as I go. Check out <Link to="https://www.leafjessicaroy.com/">my new site</Link>, sign up for <Link to="https://www.leafjessicaroy.com/connect/">my newsletter mailing list</Link> to get updates on the progress and perhaps some snippets, or follow me on <Link to="https://www.instagram.com/leafjessicaroy/">Instagram</Link> to get a peek into the book writing process as it unfolds.
         </p>
         <h2 id="resist">What Now</h2>
         <p>The Trump administration is causing a truly historic amount of damage to our country and our world. I wrote a <Link to="resist/">my What Now page</Link> with some thoughts, ideas, and resources about it all.</p>
